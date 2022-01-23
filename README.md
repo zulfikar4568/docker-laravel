@@ -2,6 +2,20 @@
 This repository is used for doing Laravel Development. The repository has been tested in linux Ubuntu 20.04.</br>
 © M. Zulfikar Isnaen [MIT License](LICENSE)
 
+# Using this Repository
+Make sure you have:
+* docker
+* docker-compose </br>
+If you doesn't have please install first in [Official Docker](https://docs.docker.com/engine/).
+```
+docker --version
+docker-compose --version
+```
+You should be get like this, if have
+```
+Docker version 20.10.12, build e91ed57
+docker-compose version 1.29.2, build 5becea4c
+```
 ## Creating Laravel Application via Utility Composer
 
 ```bash
