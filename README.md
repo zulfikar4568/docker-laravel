@@ -62,3 +62,10 @@ Make sure container up & running, and type this command:
 ```
 docker-compose run --rm artisan migrate
 ```
+
+## Deploying Laravel Application
+
+```
+git checkout production
+docker-compose up -d --build server
+```
