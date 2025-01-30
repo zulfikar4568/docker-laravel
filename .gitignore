@@ -1,5 +1,2 @@
 # exclude everything
 src/*
-
-# exception to the rule
-!src/.gitkeep 

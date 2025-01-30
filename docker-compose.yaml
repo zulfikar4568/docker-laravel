@@ -1,9 +1,7 @@
-version: "3.8"
-
 services:
   # Application Container
   server:
-    image: 'nginx:stable-alpine'
+    image: 'nginx:stable-alpine-perl'
     ports:
       - '8000:80'
     volumes:
@@ -19,7 +17,7 @@ services:
     volumes:
       - ./src:/var/www/html:delegated
   mysql:
-    image: mysql:5.7
+    image: mysql:9
     env_file:
       - ./env/mysql.env
 
